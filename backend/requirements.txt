@@ -1,0 +1,12 @@
+fastapi == 0.115.0
+
+#server to run app
+uvicorn == 0.30.6
+
+#pip install -r requirement.txt
+
+#to start : uvicorn main:app --reload
+
+#pip freeze (to list all installments)
+
+#first activate Scripts in venv and then pip install

@@ -1,0 +1,22 @@
+.TodoItem {
+    background-color: pink;
+    padding: 2px;
+    border: 1px solid gray;
+    margin: 5px;
+    border-radius: 5px;  
+    width : 500px;
+}
+.TodoItem__header{
+    display: flex;
+    justify-content: space-between;
+}
+
+#delete_todo_btn {
+    background-color: transparent;
+    border: none;
+}
+
+#delete_todo_icon{
+    color: red;
+    font-size: 30px;
+}
