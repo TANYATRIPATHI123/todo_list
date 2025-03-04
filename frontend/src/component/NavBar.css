@@ -1,0 +1,10 @@
+.NavBar{
+    display: flex;
+    gap : 20px;
+    background-color: aquamarine;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around; /*horizontal */
+    margin-bottom: 10px;
+}

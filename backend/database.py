@@ -1,6 +1,6 @@
 # pip install mysql-connector-python
 import mysql.connector
-from mysql.connector import Error
+from mysql.connector import Error, connect
 
 db_config = { "host" : "localhost",
     "database" : "todos_db",

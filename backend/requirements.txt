@@ -3,6 +3,12 @@ fastapi == 0.115.0
 #server to run app
 uvicorn == 0.30.6
 
+#to connect to database
+mysql.connector-python
+
+
+
+
 #pip install -r requirement.txt
 
 #to start : uvicorn main:app --reload
