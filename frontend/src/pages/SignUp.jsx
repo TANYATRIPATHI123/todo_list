@@ -8,6 +8,7 @@ function SignUp() {
   const [password, setPassword] = useState('');
   const [confirm_password, setConfirmPassword] = useState('');
   const [error, setError] = useState('');
+
   function validate_password(){
     if(password !== confirm_password){
       setError("Passwords do not match");
@@ -27,7 +28,7 @@ function SignUp() {
     if(!validate_password()){
       return;
     }
-
+    console.log('calling backend serives');
     axios.post('http://localhost:8000/signup', { "username": username, "email": email, "password": password })
         .then((res) => {
           if(res.data.status !== "ok") {

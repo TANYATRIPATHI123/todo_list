@@ -69,7 +69,7 @@ function Todo() {
         <button onClick={useEffect}>get Todos</button>
         {
           todosList.map((todo, idx) =>   //for looping through each item
-            <TodoItem title={todo.title} desc={todo.desc} status={todo.status} idx ={idx}
+            <TodoItem key={todo.title} title={todo.title} desc={todo.desc} status={todo.status} idx ={idx}
             deleteTodo = {deleteTodo}/>
           )
         }
